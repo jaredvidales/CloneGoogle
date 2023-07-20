@@ -1,0 +1,197 @@
+body{
+ 
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/************************
+/*navegación*/
+header{
+
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+
+display: flex;
+justify-content: flex-end;
+
+
+}
+header nav .nav-right-section{
+   
+ width: 250px;
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+a{
+    text-decoration: none;
+}
+nav .nav-right-section a{
+color: rgb(21, 21, 21); 
+margin-right: 20px ;
+
+}
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat ;
+}
+nav .nav-right-section img{
+    border-radius: 100px;
+    margin-left: 20px;
+    width: 35px;
+}
+/************************
+/*main*/
+main{
+
+  margin-top: 130px;
+  text-align: center;
+}
+main .main-logo{
+
+    width: 530px;
+margin: 0 auto;
+margin-bottom: 35px;
+}
+main .main-logo img{
+   height: 110px; 
+  
+}
+main .main-input{
+    
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+main .main-input-container{
+   border: 1px solid #dfe1e5;
+   border-radius: 20px;
+   width: 525px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main .main-input input{
+    height: 35px ;
+    border: none;
+    outline: none;
+    width: 430px;
+}
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg) ;
+background-size: contain;
+padding-left: 6%;
+background-repeat: no-repeat;
+background-position: center;
+height: 13px;
+
+}
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    height: 17px;
+    width: 17px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 1%;
+    background-repeat: no-repeat;
+}
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-position: center;
+    background-size: contain;
+    width: 17px;
+    height: 17px;
+    background-repeat: no-repeat;
+    padding-right: 5%;
+}
+
+/**Botones*/
+main .main-buttons{
+    width: 550px;
+    margin: 0 auto;
+   
+
+}
+
+main .main-buttons div{
+
+display: inline-block;
+}
+main .main-buttons button{
+    background-color: #f8f9fa;
+    border: none;
+    height: 40px;
+    font-size: 16px;
+    color: #3c4043;
+    padding: 0 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/*Efecto de sobra*/
+main .main-input-container:hover{
+
+box-shadow:0px 0px 5px #20212447;
+}
+main .main-buttons button:hover{
+
+    color: #202124;
+    border: 1px solid #dadce0;
+    box-shadow:0px 1px 1px #20212447;
+}
+
+/*Abajo*/
+
+footer{
+  width: 100%;
+  bottom: 0;
+}
+
+footer nav{
+    display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     border-top: 1px solid #dadce0;
+     font-size: 15px;
+     margin-top: 10%;
+     background-color: #f2f2f2; 
+ }
+ footer nav .footer-left{
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ nav .footer-left a{
+     color: #3c4043;
+     margin: 25px;
+ }
+ 
+ footer nav .footer-right{
+ 
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+  
+ nav .footer-right a{
+     color: #3c4043;
+     margin: 25px;
+  }
+ 
